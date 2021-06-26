@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1aad8b12-0432-4ada-a88c-865c4dfa93d6" name="Default Changelist" comment="" />
+    <list default="true" id="1aad8b12-0432-4ada-a88c-865c4dfa93d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/css/style11.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/style13.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,11 +16,11 @@
     <session id="-1422404896">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,34 +39,66 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4504" />
-          <entry key="html" value="2429" />
+          <entry key="css" value="5388" />
+          <entry key="html" value="2921" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4504" />
-          <entry key="HTML" value="2429" />
+          <entry key="CSS" value="5388" />
+          <entry key="HTML" value="2921" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="334" column="36" lean-forward="true" selection-start-line="334" selection-start-column="36" selection-end-line="334" selection-end-column="36" />
+            <state relative-caret-position="315">
+              <caret line="444" column="50" selection-start-line="444" selection-start-column="50" selection-end-line="444" selection-end-column="50" />
+              <folding>
+                <element signature="e#40338#40344#0" expanded="true" />
+                <element signature="e#40344#40350#0" expanded="true" />
+                <element signature="e#40350#40356#0" expanded="true" />
+                <element signature="e#40356#40362#0" expanded="true" />
+                <element signature="e#40362#40368#0" expanded="true" />
+                <element signature="e#40411#40417#0" expanded="true" />
+                <element signature="e#43663#43669#0" expanded="true" />
+                <element signature="e#43669#43675#0" expanded="true" />
+                <element signature="e#43675#43681#0" expanded="true" />
+                <element signature="e#43681#43687#0" expanded="true" />
+                <element signature="e#43687#43693#0" expanded="true" />
+                <element signature="e#43736#43742#0" expanded="true" />
+                <element signature="e#47215#47221#0" expanded="true" />
+                <element signature="e#47221#47227#0" expanded="true" />
+                <element signature="e#47227#47233#0" expanded="true" />
+                <element signature="e#47233#47239#0" expanded="true" />
+                <element signature="e#47239#47245#0" expanded="true" />
+                <element signature="e#47288#47294#0" expanded="true" />
+                <element signature="e#50476#50482#0" expanded="true" />
+                <element signature="e#50482#50488#0" expanded="true" />
+                <element signature="e#50488#50494#0" expanded="true" />
+                <element signature="e#50494#50500#0" expanded="true" />
+                <element signature="e#50500#50506#0" expanded="true" />
+                <element signature="e#50549#50555#0" expanded="true" />
+                <element signature="e#53713#53719#0" expanded="true" />
+                <element signature="e#53719#53725#0" expanded="true" />
+                <element signature="e#53725#53731#0" expanded="true" />
+                <element signature="e#53731#53737#0" expanded="true" />
+                <element signature="e#53737#53743#0" expanded="true" />
+                <element signature="e#53786#53792#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asset/css/style11.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/asset/css/style13.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8148">
-              <caret line="363" column="17" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
+            <state relative-caret-position="269">
+              <caret line="850" column="5" selection-start-line="850" selection-start-column="5" selection-end-line="850" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -96,7 +132,9 @@
         <option value="$PROJECT_DIR$/asset/css/style10.css" />
         <option value="$PROJECT_DIR$/asset/js/jquery.js" />
         <option value="$PROJECT_DIR$/asset/css/style11.css" />
+        <option value="$PROJECT_DIR$/asset/css/style12.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/asset/css/style13.css" />
       </list>
     </option>
   </component>
@@ -130,6 +168,12 @@
               <item name="landingpage" type="b2602c69:ProjectViewProjectNode" />
               <item name="landingpage" type="462c0819:PsiDirectoryNode" />
               <item name="asset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="landingpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landingpage" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,18 +214,20 @@
       <workItem from="1624629857777" duration="4092000" />
       <workItem from="1624643317234" duration="8682000" />
       <workItem from="1624652887057" duration="889000" />
-      <workItem from="1624653974429" duration="9761000" />
+      <workItem from="1624653974429" duration="10330000" />
+      <workItem from="1624695994870" duration="5941000" />
+      <workItem from="1624705651815" duration="3138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42051000" />
+    <option name="totallyTimeSpent" value="51699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20872483" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21409395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -221,17 +267,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asset/css/style11.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8148">
-          <caret line="363" column="17" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
+        <state relative-caret-position="315">
+          <caret line="444" column="50" selection-start-line="444" selection-start-column="50" selection-end-line="444" selection-end-column="50" />
+          <folding>
+            <element signature="e#40338#40344#0" expanded="true" />
+            <element signature="e#40344#40350#0" expanded="true" />
+            <element signature="e#40350#40356#0" expanded="true" />
+            <element signature="e#40356#40362#0" expanded="true" />
+            <element signature="e#40362#40368#0" expanded="true" />
+            <element signature="e#40411#40417#0" expanded="true" />
+            <element signature="e#43663#43669#0" expanded="true" />
+            <element signature="e#43669#43675#0" expanded="true" />
+            <element signature="e#43675#43681#0" expanded="true" />
+            <element signature="e#43681#43687#0" expanded="true" />
+            <element signature="e#43687#43693#0" expanded="true" />
+            <element signature="e#43736#43742#0" expanded="true" />
+            <element signature="e#47215#47221#0" expanded="true" />
+            <element signature="e#47221#47227#0" expanded="true" />
+            <element signature="e#47227#47233#0" expanded="true" />
+            <element signature="e#47233#47239#0" expanded="true" />
+            <element signature="e#47239#47245#0" expanded="true" />
+            <element signature="e#47288#47294#0" expanded="true" />
+            <element signature="e#50476#50482#0" expanded="true" />
+            <element signature="e#50482#50488#0" expanded="true" />
+            <element signature="e#50488#50494#0" expanded="true" />
+            <element signature="e#50494#50500#0" expanded="true" />
+            <element signature="e#50500#50506#0" expanded="true" />
+            <element signature="e#50549#50555#0" expanded="true" />
+            <element signature="e#53713#53719#0" expanded="true" />
+            <element signature="e#53719#53725#0" expanded="true" />
+            <element signature="e#53725#53731#0" expanded="true" />
+            <element signature="e#53731#53737#0" expanded="true" />
+            <element signature="e#53737#53743#0" expanded="true" />
+            <element signature="e#53786#53792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/asset/css/style13.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="334" column="36" lean-forward="true" selection-start-line="334" selection-start-column="36" selection-end-line="334" selection-end-column="36" />
+        <state relative-caret-position="269">
+          <caret line="850" column="5" selection-start-line="850" selection-start-column="5" selection-end-line="850" selection-end-column="5" />
         </state>
       </provider>
     </entry>
