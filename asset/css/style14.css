@@ -54,7 +54,7 @@
 {
     font-size: 50px;
     color: #0C4682;
-    padding: 0px 25px;
+    padding: 0px 20px;
     font-weight: 600;
 }
 
@@ -506,7 +506,78 @@ nav ul li a:hover:after
     display: flex;
     justify-content: center;
 }
-
+#section6-container
+{
+    padding: 100px;
+}
+#section6
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section6 #section-title
+{
+    display: flex;
+    width: 650px;
+}
+#section6-description-title
+{
+    font-size: 35px;
+    color: #0C4682;
+    width: 100%;
+    text-align: right;
+}
+#contact-form
+{
+    /*background: gray;*/
+    margin-top: 100px;
+    text-align: center;
+}
+#top-input
+{
+    display: flex;
+    justify-content: space-between;
+}
+#top-input input , #message-input
+{
+    background: #F1F1F1;
+    box-shadow: 0px 5px 5px 1px rgba(12, 70, 130, 0.25);
+    border-radius: 25px;
+    padding: 20px;
+    width: 98%;
+    border: none;
+    font-size: 30px;
+    color: #0C4682;
+    margin: 15px;
+}
+#top-input input:focus , #message-input:focus
+{
+    outline: none;
+}
+#form-policy, #form-policy a
+{
+    font-size: 25px;
+    color: #0C4682;
+    text-decoration: none;
+    margin: 20px;
+}
+#contact-form input[type='submit']
+{
+    font-size: 35px;
+    padding: 10px 100px;
+    cursor: pointer;
+    border: none;
+}
+#footer-container
+{
+    background: #F1F1F1;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    color: #0C4682;
+    padding: 100px 130px;
+}
 @media (max-width: 1440px)
 {
     nav ul li a
@@ -661,6 +732,38 @@ nav ul li a:hover:after
     {
         font-size: 20px;
         margin-top: -25px;
+    }
+    #section6-container
+    {
+        padding: 100px 50px;
+    }
+    #section6-description-title
+    {
+        font-size: 30px;
+        width: 90%;
+    }
+    #top-input input , #message-input
+    {
+        font-size: 26px;
+    }
+    #form-policy, #form-policy a
+    {
+        font-size: 25px;
+        color: #0C4682;
+        text-decoration: none;
+        margin: 20px;
+    }
+    #contact-form input[type='submit']
+    {
+        font-size: 32px;
+        padding: 10px 100px;
+        cursor: pointer;
+        border: none;
+    }
+    #footer-container
+    {
+        font-size: 20px;
+        padding: 100px 50px;
     }
 }
 @media (max-width: 834px)
@@ -858,6 +961,31 @@ nav ul li a:hover:after
     {
         display: none;
     }
+    #section6-container
+    {
+        padding: 100px 50px;
+    }
+    #section6-description-title
+    {
+        font-size: 20px;
+        width: 90%;
+    }
+    #top-input
+    {
+        flex-direction: column;
+    }
+    #top-input input , #message-input
+    {
+        font-size: 18px;
+    }
+    #form-policy, #form-policy a
+    {
+        font-size: 16px;
+    }
+    #contact-form input[type='submit']
+    {
+        font-size: 21px;
+    }
 }
 @media (max-width: 725px)
 {
@@ -1013,6 +1141,41 @@ nav ul li a:hover:after
         width: 95%;
         justify-content: center;
     }
+
+    #section6
+    {
+        flex-direction: column;
+    }
+    #section6 #section-title
+    {
+        display: flex;
+        width: auto;
+    }
+    #section6 #section-title .heading-text
+    {
+        margin: 0 auto;
+    }
+    #section6 #section6-description-title
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+    #form-policy a
+    {
+        font-size: 11px;
+    }
+    #contact-form input[type='submit']
+    {
+        /*font-size: 13px;*/
+        padding: 10px 40px;
+    }
+    #footer-container
+    {
+        font-size: 20px;
+        padding: 100px 50px;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 @media (max-width: 375px)
 {
@@ -1078,5 +1241,41 @@ nav ul li a:hover:after
     {
         font-size: 10px;
         margin-top: -10px;
+    }
+    #section6-container
+    {
+        padding: 30px;
+    }
+    #section6 #section6-description-title
+    {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    #contact-form
+    {
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    #top-input
+    {
+        flex-direction: column;
+    }
+    #top-input input , #message-input
+    {
+        font-size: 11px;
+    }
+    #form-policy, #form-policy a
+    {
+        font-size: 11px;
+    }
+    #contact-form input[type='submit']
+    {
+        font-size: 13px;
+        padding: 10px 40px;
+    }
+    #footer-container
+    {
+        font-size: 16px;
     }
 }
