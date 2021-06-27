@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+.primary-button
+{
+    text-decoration: none;
+    color: white;
+    background: #0C4682;
+    padding: 15px 20px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px 1px #0C4682;
+    text-align: center;
+}
+.primary-button:hover
+{
+    background: #0c3a71;
+}
+.left-bullet
+{
+    /*background: red;*/
+    padding: 12px 0px;
+    width: 90px;
+    height: 60px;
+
+}
+.left-bullet .bullet-child
+{
+    height: 2px;
+    width: 60px;
+    background: #0C4682;
+    padding: 2px;
+    border-radius: 10px;
+    margin: 7px;
+}
+.left-bullet .last-bullet-child
+{
+    transform: rotate(90deg);
+    height: 2px;
+    width: 50px;
+    background: #0C4682;
+    padding: 2px;
+    border-radius: 10px;
+    margin: -15px 0px 0px 60px;
+    position: absolute;
+
+}
+.heading-text
+{
+    font-size: 50px;
+    color: #0C4682;
+    padding: 0px 20px;
+    font-weight: 600;
+}
+
+#small-nav-logo,#check,#bars
+{
+    display: none;
+}
+nav
+{
+    background: #FBFBFB;
+
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul #nav-logo
+{
+    height: 90px;
+    transition: 0.5s;
+}
+nav ul li
+{
+    list-style: none;
+    padding: 60px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #0C4682;
+    font-size: 20px;
+    position: relative;
+    padding: 6px 0px;
+    transition: 0.5s;
+}
+nav ul li a:hover
+{
+    transition: 0.9s;
+}
+nav ul li a:after
+{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) scaleX(0);
+    -webkit-transform: translateX(-50%) scaleX(0);
+    transform-origin: 50% 50%;
+    width: 50%;
+    height: 3px;
+    background-color: #0C4682;
+    transition: transform 250ms;
+    -webkit-transition: transform 250ms;
+    border-radius: 10px;
+}
+nav ul li a:hover:after
+{
+    transform: translateX(-50%) scaleX(1);
+    -webkit-transform: translateX(-50%) scaleX(1);
+    height: 3px;
+}
+#timelineImageContainer
+{
+    /*position: absolute;*/
+    width: 100%;
+    height: 690px;
+    background: rgba(0, 0, 0, 0.6);
+}
+#timelineImageContainer #timelineImg
+{
+    background-image: url("../material/news-timeline.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 690px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+@media (max-width: 1440px)
+{
+    nav ul li a
+    {
+        font-size: 16px;
+        transition: 0.5s;
+    }
+    nav ul li
+    {
+        padding: 60px 12px;
+    }
+    nav ul #nav-logo
+    {
+        height: 50px;
+        transition: 0.5s;
+    }
+}
+@media (max-width: 834px)
+{
+    #bars
+    {
+        font-size: 32px;
+        color: #0C4682;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .bars
+    {
+        background-color: #0C4682;
+        height: 4.5px;
+        width: 35px;
+        margin: 2px;
+        border-radius: 30px;
+
+    }
+    .bars:nth-child(2)
+    {
+        width: 30px;
+    }
+    .bars:nth-child(3)
+    {
+        width: 25px;
+    }
+
+    #small-nav-logo
+    {
+        display: block;
+        height: 50px;
+    }
+    nav
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
+    nav ul
+    {
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        top: 110px;
+        background: white;
+        box-shadow: lightblue 0px 0px 5px;
+        right: -50%;
+        transition: all .5s;
+        padding: 50px 0px;
+        text-align: center;
+        z-index: 1;
+    }
+    #check:checked ~ ul{
+        right: 0;
+    }
+    nav ul li
+    {
+        padding: 10px;
+    }
+    #nav-logo
+    {
+        display: none;
+    }
+}
+@media (max-width: 725px)
+{
+
+}
+@media (max-width: 375px)
+{
+    nav
+    {
+        padding: 10px 30px;
+    }
+    nav ul
+    {
+        top: 70px;
+    }
+}
+

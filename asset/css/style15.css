@@ -7,6 +7,9 @@
     box-sizing: border-box;
 
 }
+html {
+    scroll-behavior: smooth;
+}
 .primary-button
 {
     text-decoration: none;
