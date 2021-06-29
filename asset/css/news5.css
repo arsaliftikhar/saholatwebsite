@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 *
 {
     padding: 0;
@@ -9,6 +9,7 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 .primary-button
 {
@@ -84,15 +85,17 @@ nav ul #nav-logo
 nav ul li
 {
     list-style: none;
-    padding: 60px 20px;
+    padding: 50px 20px;
 }
 nav ul li a
 {
     text-decoration: none;
     color: #0C4682;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
     position: relative;
     padding: 6px 0px;
+    font-weight: 500;
     transition: 0.5s;
 }
 nav ul li a:hover
@@ -143,26 +146,26 @@ nav ul li a:hover:after
 }
 #timeline-upper-div
 {
-    height: 633px;
-    width: 830px;
+    height: 533px;
+    width: 730px;
     background: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(47px);
     border-radius: 70px 70px 0px 0px;
     color: #FBFBFB;
-    margin-top: 170px;
+    margin-top: 265px;
     margin-left: 8%;
     padding: 50px;
     position: absolute;
 }
 .sub-heading
 {
-    font-size: 35px;
+    font-size: 32px;
     margin: 35px 0px;
     font-weight: 400;
 }
 .big-heading
 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 600;
 }
 .container
@@ -172,22 +175,22 @@ nav ul li a:hover:after
 #news-article p
 {
     color: #0C4682;
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 50px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 45px;
 }
 .article-heading
 {
     color: #0C4682;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 .news-article-side-img
 {
-    height: 775px;
-    width: 577px;
+    height: 675px;
+    width: 477px;
     float: right;
     margin: 30% -100px 20px 20px;
     border-radius: 70px 0px 0px 70px;
@@ -204,7 +207,7 @@ nav ul li a:hover:after
 }
 .short-title
 {
-    font-size: 35px;
+    font-size: 28px;
     color: #0C4682;
     margin-top: 100px;
 }
@@ -218,10 +221,10 @@ nav ul li a:hover:after
 .card
 {
 
-    width: 670px;
-    height: 700px;
+    width: 550px;
+    height: 620px;
     background: #FBFBFB;
-    margin: 30px;
+    margin: 20px;
     border-radius: 50px;
     overflow: hidden;
     box-shadow: 0px 5px 5px 1px rgba(12, 70, 130, 0.25);
@@ -240,21 +243,21 @@ nav ul li a:hover:after
 }
 .card-title
 {
-    font-size: 30px;
+    font-size: 24px;
     color: #0C4682;
     font-weight: 600;
     padding: 20px;
-    line-height: 50px;
+    line-height: 40px;
     height: 110px;
     overflow: hidden;
 }
 .card-description
 {
     color: #0C4682;
-    font-size: 25px;
+    font-size: 20px;
     padding: 20px;
     font-weight: 400;
-    height: 260px;
+    height: 180px;
     overflow: hidden;
 }
 .card-bottom
@@ -263,7 +266,8 @@ nav ul li a:hover:after
     align-items: center;
     color: #0C4682;
     padding: 15px;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .card-button-bottom-container
 {
@@ -278,7 +282,8 @@ nav ul li a:hover:after
     color: #FBFBFB;
     background: #0C4682;
     padding: 15px 25px;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 500;
     position: absolute;
     margin-top: -30px;
     border-radius: 100px;
@@ -287,10 +292,10 @@ nav ul li a:hover:after
 .right-arrow
 {
     color: #FBFBFB;
-    font-size: 40px;
+    font-size: 30px;
     background: #0C4682;
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     padding: 10px;
     text-align: center;
     border-radius: 100%;
@@ -307,7 +312,8 @@ nav ul li a:hover:after
 #footer-container
 {
     background: #F1F1F1;
-    font-size: 35px;
+    font-size: 24px;
+    font-weight: 500;
     display: flex;
     justify-content: space-between;
     color: #0C4682;
@@ -322,7 +328,7 @@ nav ul li a:hover:after
     }
     nav ul li
     {
-        padding: 60px 12px;
+        padding: 50px 12px;
     }
     nav ul #nav-logo
     {
@@ -331,23 +337,23 @@ nav ul li a:hover:after
     }
     #timeline-upper-div
     {
-        height: 567px;
-        width: 730px;
-        margin-top: 230px;
+        height: 477px;
+        width: 630px;
+        margin-top: 320px;
         margin-left: 6%;
         padding: 50px;
         transition: 0.5s;
     }
     .sub-heading
     {
-        font-size: 30px;
+        font-size: 28px;
         margin: 35px 0px;
         font-weight: 400;
         transition: 0.5s;
     }
     .big-heading
     {
-        font-size: 65px;
+        font-size: 48px;
         font-weight: 600;
         transition: 0.5s;
     }
@@ -358,24 +364,28 @@ nav ul li a:hover:after
     #news-article p
     {
         color: #0C4682;
-        font-size: 29px;
+        font-size: 20px;
         margin-bottom: 50px;
         line-height: 45px;
     }
     .article-heading
     {
-        font-size: 40px;
+        font-size: 38px;
         margin-bottom: 20px;
     }
     .news-article-side-img
     {
-        height: 652px;
-        width: 517px;
+        height: 552px;
+        width: 417px;
         float: right;
-        margin: 70% -120px 20px 20px;
+        margin: 45% -120px 20px 20px;
         border-radius: 70px 0px 0px 70px;
         shape-outside: url("../material/news-article-side-img.jpg");
         background: url("../material/news-article-side-img.jpg");
+    }
+    .short-title
+    {
+        font-size: 26px;
     }
     .card
     {
@@ -391,18 +401,18 @@ nav ul li a:hover:after
     }
     .card-title
     {
-        font-size: 26px;
+        font-size: 22px;
         line-height: 30px;
         height: 80px;
     }
     .card-description
     {
-        font-size: 22px;
+        font-size: 17px;
         height: 200px;
     }
     .card-bottom
     {
-        font-size: 17px;
+        font-size: 16px;
     }
     .card-button-bottom-container
     {
@@ -413,7 +423,7 @@ nav ul li a:hover:after
     }
     .card-button-bottom
     {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: -25px;
     }
     #footer-container
@@ -503,13 +513,13 @@ nav ul li a:hover:after
     }
     .sub-heading
     {
-        font-size: 22px;
+        font-size: 20px;
         margin: 35px 0px;
         transition: 0.5s;
     }
     .big-heading
     {
-        font-size: 45px;
+        font-size: 38px;
         transition: 0.5s;
     }
     .container
@@ -518,26 +528,30 @@ nav ul li a:hover:after
     }
     #news-article p
     {
-        font-size: 22px;
+        font-size: 18px;
         margin-bottom: 50px;
         line-height: 45px;
     }
     .article-heading
     {
         color: #0C4682;
-        font-size: 40px;
+        font-size: 36px;
         font-weight: 600;
         margin-bottom: 20px;
     }
     .news-article-side-img
     {
-        height: 537px;
-        width: 426px;
+        height: 437px;
+        width: 326px;
         float: right;
-        margin: 100% -120px 20px 20px;
+        margin: 80% -120px 20px 20px;
         border-radius: 70px 0px 0px 70px;
         shape-outside: url("../material/news-article-side-img.jpg");
         background: url("../material/news-letter-side-img-sm.jpg");
+    }
+    .short-title
+    {
+        font-size: 22px;
     }
     .card-d-none-md
     {
@@ -558,22 +572,35 @@ nav ul li a:hover:after
     }
     .sub-heading
     {
-        font-size: 22px;
+        font-size: 20px;
         margin: 25px 0px;
         transition: 0.5s;
     }
     .big-heading
     {
-        font-size: 45px;
+        font-size: 38px;
         transition: 0.5s;
     }
     .container
     {
         text-align: center;
     }
+    #news-article p
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #news-article .article-heading
+    {
+        font-size: 28px;
+    }
     .news-article-side-img
     {
         display: none;
+    }
+    .short-title
+    {
+        font-size: 20px;
     }
     .card-button-bottom-container
     {
@@ -582,7 +609,7 @@ nav ul li a:hover:after
     }
     #footer-container
     {
-        font-size: 20px;
+        font-size: 16px;
         padding: 100px 50px;
         flex-direction: column;
         text-align: center;
@@ -625,9 +652,13 @@ nav ul li a:hover:after
     }
     #news-article p
     {
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 50px;
         line-height: 35px;
+    }
+    #news-article .article-heading
+    {
+        font-size: 22px;
     }
     .card
     {
@@ -655,6 +686,10 @@ nav ul li a:hover:after
     {
         font-size: 10px;
         margin-top: -10px;
+    }
+    #footer-container
+    {
+        font-size: 14px;
     }
 }
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 *
 {
     padding: 0;
@@ -84,13 +84,14 @@ nav ul #nav-logo
 nav ul li
 {
     list-style: none;
-    padding: 60px 20px;
+    padding: 50px 20px;
 }
 nav ul li a
 {
     text-decoration: none;
     color: #0C4682;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
     position: relative;
     padding: 6px 0px;
     transition: 0.5s;
@@ -156,7 +157,7 @@ nav ul li a:hover:after
 #timelineImageContainer #description
 {
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     color: white;
     font-size: 27px;
     line-height: 33px;
@@ -173,6 +174,7 @@ nav ul li a:hover:after
 {
     font-size: 27px;
     padding: 20px 30px;
+    font-weight: 500;
 }
 #timelineImageContainer #timelineButtons #playButton
 {
@@ -191,7 +193,7 @@ nav ul li a:hover:after
 {
     font-size: 22px;
     color: white;
-    font-weight: 500;
+    font-weight: 300;
 
 }
 #section2
@@ -204,7 +206,7 @@ nav ul li a:hover:after
 
 #section2-description
 {
-    font-size: 26px;
+    font-size: 22px;
     margin-top: 50px;
     font-weight: 500;
     color: #0C4682;
@@ -240,7 +242,8 @@ nav ul li a:hover:after
 }
 .section-sub-title
 {
-    font-size: 35px;
+    font-size: 26px;
+    font-weight: 500;
     color: #0C4682;
 }
 .section-head-body
@@ -258,7 +261,8 @@ nav ul li a:hover:after
 #section3-container .short-title
 {
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
+    font-weight: 500;
     color: #0C4682;
     margin-top: 100px;
 }
@@ -290,20 +294,21 @@ nav ul li a:hover:after
 .boxes-container .box .box-num
 {
     color: #0C4682;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
 }
 .boxes-container .box .box-title
 {
     color: #0C4682;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
 }
 .boxes-container .box p
 {
     color: #0C4682;
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 20px;
+    font-weight: 500;
 }
 .sm-tabs
 {
@@ -324,7 +329,8 @@ nav ul li a:hover:after
 }
 #section4-description-title
 {
-    font-size: 35px;
+    font-size: 26px;
+    font-weight: 500;
     color: #0C4682;
     width: 100%;
     text-align: right;
@@ -343,17 +349,19 @@ nav ul li a:hover:after
     box-shadow: 0px 5px 5px 1px rgba(12, 70, 130, 0.25);
     border-radius: 40px;
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px;
     margin-bottom: 80px;
 }
 .feature-box-container .feature-box-title
 {
-    font-size: 30px;
+    font-size: 24px;
+    font-weight: 600;
     color: #0C4682;
 }
 .feature-box-container .feature-box-description
 {
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 500;
     color: #0C4682;
     margin-top: 20px;
 }
@@ -380,7 +388,8 @@ nav ul li a:hover:after
 {
     text-align: center;
     color: #0C4682;
-    font-size: 30px;
+    font-size: 24px;
+    font-weight: 500;
     margin-top: 90px;
 }
 .slider-container
@@ -393,10 +402,10 @@ nav ul li a:hover:after
 .left-arrow
 {
     background: #FBFBFB;
-    font-size: 40px;
+    font-size: 30px;
     color: #0C4682;
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     padding: 10px;
     text-align: center;
     border-radius: 100%;
@@ -413,10 +422,10 @@ nav ul li a:hover:after
 .card
 {
 
-    width: 670px;
-    height: 700px;
+    width: 550px;
+    height: 620px;
     background: #FBFBFB;
-    margin: 30px;
+    margin: 20px;
     border-radius: 50px;
     overflow: hidden;
     box-shadow: 0px 5px 5px 1px rgba(12, 70, 130, 0.25);
@@ -435,21 +444,21 @@ nav ul li a:hover:after
 }
 .card-title
 {
-    font-size: 30px;
+    font-size: 24px;
     color: #0C4682;
     font-weight: 600;
     padding: 20px;
-    line-height: 50px;
+    line-height: 40px;
     height: 110px;
     overflow: hidden;
 }
 .card-description
 {
     color: #0C4682;
-    font-size: 25px;
+    font-size: 20px;
     padding: 20px;
     font-weight: 400;
-    height: 260px;
+    height: 180px;
     overflow: hidden;
 }
 .card-bottom
@@ -458,7 +467,8 @@ nav ul li a:hover:after
     align-items: center;
     color: #0C4682;
     padding: 15px;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .card-button-bottom-container
 {
@@ -473,7 +483,8 @@ nav ul li a:hover:after
     color: #FBFBFB;
     background: #0C4682;
     padding: 15px 25px;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 500;
     position: absolute;
     margin-top: -30px;
     border-radius: 100px;
@@ -482,10 +493,10 @@ nav ul li a:hover:after
 .right-arrow
 {
     color: #FBFBFB;
-    font-size: 40px;
+    font-size: 30px;
     background: #0C4682;
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     padding: 10px;
     text-align: center;
     border-radius: 100%;
@@ -526,7 +537,8 @@ nav ul li a:hover:after
 }
 #section6-description-title
 {
-    font-size: 35px;
+    font-size: 28px;
+    font-weight: 500;
     color: #0C4682;
     width: 100%;
     text-align: right;
@@ -546,11 +558,12 @@ nav ul li a:hover:after
 {
     background: #F1F1F1;
     box-shadow: 0px 5px 5px 1px rgba(12, 70, 130, 0.25);
-    border-radius: 25px;
-    padding: 20px;
+    border-radius: 40px;
+    padding: 25px 20px;
     width: 98%;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 500;
     color: #0C4682;
     margin: 15px;
 }
@@ -560,22 +573,25 @@ nav ul li a:hover:after
 }
 #form-policy, #form-policy a
 {
-    font-size: 25px;
+    font-size: 18px;
     color: #0C4682;
     text-decoration: none;
+    font-weight: 500;
     margin: 20px;
 }
 #contact-form input[type='submit']
 {
-    font-size: 35px;
-    padding: 10px 100px;
+    font-size: 24px;
+    padding: 20px 100px;
+    font-weight: 600;
     cursor: pointer;
     border: none;
 }
 #footer-container
 {
     background: #F1F1F1;
-    font-size: 35px;
+    font-size: 24px;
+    font-weight: 500;
     display: flex;
     justify-content: space-between;
     color: #0C4682;
@@ -590,7 +606,7 @@ nav ul li a:hover:after
     }
     nav ul li
     {
-        padding: 60px 12px;
+        padding: 50px 12px;
     }
     nav ul #nav-logo
     {
@@ -613,7 +629,7 @@ nav ul li a:hover:after
     }
     #section2-description
     {
-        font-size: 20px;
+        font-size: 18px;
     }
     #side-mobile img
     {
@@ -631,7 +647,7 @@ nav ul li a:hover:after
     }
     .section-sub-title
     {
-        font-size: 30px;
+        font-size: 22px;
     }
     .section-head-body
     {
@@ -639,7 +655,7 @@ nav ul li a:hover:after
     }
     #section3-container .short-title
     {
-        font-size: 25px;
+        font-size: 22px;
     }
     .boxes-container
     {
@@ -651,15 +667,15 @@ nav ul li a:hover:after
     }
     .boxes-container .box .box-num
     {
-        font-size: 34px;
+        font-size: 28px;
     }
     .boxes-container .box .box-title
     {
-        font-size: 25px;
+        font-size: 22px;
     }
     .boxes-container .box p
     {
-        font-size: 21px;
+        font-size: 18px;
     }
     #section-4-container
     {
@@ -667,21 +683,20 @@ nav ul li a:hover:after
     }
     #section4-description-title
     {
-        font-size: 30px;
+        font-size: 24px;
     }
     .feature-box-container
     {
-
-        height: 220px;
+        height: 190px;
         margin-bottom: 50px;
     }
     .feature-box-container .feature-box-title
     {
-        font-size: 21px;
+        font-size: 18px;
     }
     .feature-box-container .feature-box-description
     {
-        font-size: 17px;
+        font-size: 14px;
         margin-top: 20px;
     }
     #straight-mobile
@@ -695,7 +710,7 @@ nav ul li a:hover:after
     }
     .section5-short-title
     {
-        font-size: 25px;
+        font-size: 22px;
     }
     .card
     {
@@ -711,18 +726,18 @@ nav ul li a:hover:after
     }
     .card-title
     {
-        font-size: 26px;
+        font-size: 22px;
         line-height: 30px;
         height: 80px;
     }
     .card-description
     {
-        font-size: 22px;
+        font-size: 17px;
         height: 200px;
     }
     .card-bottom
     {
-        font-size: 17px;
+        font-size: 16px;
     }
     .card-button-bottom-container
     {
@@ -733,7 +748,7 @@ nav ul li a:hover:after
     }
     .card-button-bottom
     {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: -25px;
     }
     #section6-container
@@ -742,24 +757,24 @@ nav ul li a:hover:after
     }
     #section6-description-title
     {
-        font-size: 30px;
+        font-size: 24px;
         width: 90%;
     }
     #top-input input , #message-input
     {
-        font-size: 26px;
+        font-size: 18px;
     }
     #form-policy, #form-policy a
     {
-        font-size: 25px;
+        font-size: 18px;
         color: #0C4682;
         text-decoration: none;
         margin: 20px;
     }
     #contact-form input[type='submit']
     {
-        font-size: 32px;
-        padding: 10px 100px;
+        font-size: 22px;
+        padding: 20px 100px;
         cursor: pointer;
         border: none;
     }
@@ -896,7 +911,7 @@ nav ul li a:hover:after
     }
     #section2-description
     {
-        font-size: 18px;
+        font-size: 16px;
     }
     #side-mobile img
     {
@@ -910,7 +925,7 @@ nav ul li a:hover:after
     }
     .section-sub-title
     {
-        font-size: 20px;
+        font-size: 18px;
     }
     .section-head-body .heading-text
     {
@@ -927,10 +942,11 @@ nav ul li a:hover:after
     .boxes-container .box
     {
         width: 360px;
+        padding: 15px;
     }
     .boxes-container .box .box-num
     {
-        font-size: 21px;
+        font-size: 18px;
     }
     .boxes-container .box .box-title
     {
@@ -938,11 +954,11 @@ nav ul li a:hover:after
     }
     .boxes-container .box p
     {
-        font-size: 15px;
+        font-size: 14px;
     }
     #section4-description-title
     {
-        font-size: 20px;
+        font-size: 18px;
     }
     #straight-mobile
     {
@@ -950,15 +966,15 @@ nav ul li a:hover:after
     }
     .section5-short-title
     {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 50px;
     }
     .left-arrow , .right-arrow
     {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         padding: 7px;
-        font-size: 32px;
+        font-size:28px;
     }
     .card-d-none-md
     {
@@ -970,7 +986,7 @@ nav ul li a:hover:after
     }
     #section6-description-title
     {
-        font-size: 20px;
+        font-size: 18px;
         width: 90%;
     }
     #top-input
@@ -979,7 +995,7 @@ nav ul li a:hover:after
     }
     #top-input input , #message-input
     {
-        font-size: 18px;
+        font-size: 16px;
     }
     #form-policy, #form-policy a
     {
@@ -1258,7 +1274,7 @@ nav ul li a:hover:after
     #contact-form
     {
         margin-top: 20px;
-        margin-left: -10px;
+        margin-left: -20px;
     }
     #top-input
     {
@@ -1274,11 +1290,11 @@ nav ul li a:hover:after
     }
     #contact-form input[type='submit']
     {
-        font-size: 13px;
-        padding: 10px 40px;
+        font-size: 14px;
+        padding: 15px 40px;
     }
     #footer-container
     {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
