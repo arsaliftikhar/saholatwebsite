@@ -79,19 +79,19 @@ nav ul
 }
 nav ul #nav-logo
 {
-    height: 90px;
+    height: 60px;
     transition: 0.5s;
 }
 nav ul li
 {
     list-style: none;
-    padding: 50px 20px;
+    padding: 35px 20px;
 }
 nav ul li a
 {
     text-decoration: none;
     color: #0C4682;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     position: relative;
     padding: 6px 0px;
@@ -328,7 +328,7 @@ nav ul li a:hover:after
     }
     nav ul li
     {
-        padding: 50px 12px;
+        padding: 35px 12px;
     }
     nav ul #nav-logo
     {
@@ -469,7 +469,7 @@ nav ul li a:hover:after
     {
         display: flex;
         justify-content: space-between;
-        padding: 30px;
+        padding: 25px 30px;
         align-items: center;
         position: fixed;
         width: 100%;
@@ -652,9 +652,9 @@ nav ul li a:hover:after
     }
     #news-article p
     {
-        font-size: 16px;
+        font-size: 15px;
         margin-bottom: 50px;
-        line-height: 35px;
+        line-height: 30px;
     }
     #news-article .article-heading
     {
@@ -663,24 +663,27 @@ nav ul li a:hover:after
     .card
     {
         margin: 10px;
+        height: 330px;
     }
     .card-image
     {
-        height: 200px;
+        height: 110px;
     }
     .card-title
     {
         font-size: 14px;
-        line-height: 20px;
+        line-height: 18px;
+        height: 60px;
     }
     .card-description
     {
         font-size: 11px;
-        height: 200px;
+        height: 100px;
     }
     .card-bottom
     {
         font-size: 9px;
+        padding: 0px 10px 0px 10px;
     }
     .card-button-bottom
     {

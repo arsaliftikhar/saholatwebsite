@@ -1268,8 +1268,7 @@ nav ul li a:hover:after
     .card-title
     {
         font-size: 14px;
-        line-height: 18px;
-        height: 75px;
+        line-height: 20px;
     }
     .card-description
     {
