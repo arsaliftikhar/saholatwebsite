@@ -1259,20 +1259,22 @@ nav ul li a:hover:after
     .card
     {
         margin: 10px;
+        height: 380px;
     }
     .card-image
     {
-        height: 150px;
+        height: 110px;
     }
     .card-title
     {
         font-size: 14px;
-        line-height: 20px;
+        line-height: 18px;
+        height: 75px;
     }
     .card-description
     {
         font-size: 11px;
-        height: 200px;
+        height: 170px;
     }
     .card-bottom
     {
