@@ -35,7 +35,7 @@ html {
 .left-bullet .bullet-child
 {
     height: 2px;
-    width: 60px;
+    width: 50px;
     background: #0C4682;
     padding: 2px;
     border-radius: 10px;
@@ -49,13 +49,13 @@ html {
     background: #0C4682;
     padding: 2px;
     border-radius: 10px;
-    margin: -15px 0px 0px 60px;
+    margin: -15px 0px 0px 45px;
     position: absolute;
 
 }
 .heading-text
 {
-    font-size: 50px;
+    font-size: 42px;
     color: #0C4682;
     padding: 0px 20px;
     font-weight: 600;
@@ -78,19 +78,19 @@ nav ul
 }
 nav ul #nav-logo
 {
-    height: 90px;
+    height: 60px;
     transition: 0.5s;
 }
 nav ul li
 {
     list-style: none;
-    padding: 50px 20px;
+    padding: 35px 20px;
 }
 nav ul li a
 {
     text-decoration: none;
     color: #0C4682;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     position: relative;
     padding: 6px 0px;
@@ -150,7 +150,7 @@ nav ul li a:hover:after
 }
 #timelineImageContainer #timelineText #timelineTitle
 {
-    font-size: 62px;
+    font-size: 56px;
     color: white;
     font-weight: 600;
 }
@@ -159,7 +159,7 @@ nav ul li a:hover:after
     font-style: normal;
     font-weight: 400;
     color: white;
-    font-size: 27px;
+    font-size: 20px;
     line-height: 33px;
     margin-top: 30px;
     transition: 0.5s;
@@ -172,13 +172,13 @@ nav ul li a:hover:after
 }
 #timelineImageContainer #timelineButtons #timelineBigButton
 {
-    font-size: 27px;
+    font-size: 20px;
     padding: 20px 30px;
-    font-weight: 500;
+    font-weight: 600;
 }
 #timelineImageContainer #timelineButtons #playButton
 {
-    font-size: 27px;
+    font-size: 24px;
     padding: 20px 25px;
     color: white;
     background: rgb(12,70,130,0.7);
@@ -191,7 +191,7 @@ nav ul li a:hover:after
 }
 #timelineImageContainer #timelineButtons p
 {
-    font-size: 22px;
+    font-size: 20px;
     color: white;
     font-weight: 300;
 
@@ -206,7 +206,7 @@ nav ul li a:hover:after
 
 #section2-description
 {
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 50px;
     font-weight: 500;
     color: #0C4682;
@@ -218,7 +218,7 @@ nav ul li a:hover:after
 }
 #store-buttons img
 {
-    width: 300px;
+    width: 220px;
 }
 #side-mobile
 {
@@ -226,7 +226,7 @@ nav ul li a:hover:after
 }
 #side-mobile img
 {
-    width: 500px;
+    width: 400px;
     margin-top: 50px;
 
 }
@@ -242,7 +242,7 @@ nav ul li a:hover:after
 }
 .section-sub-title
 {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 500;
     color: #0C4682;
 }
@@ -261,7 +261,7 @@ nav ul li a:hover:after
 #section3-container .short-title
 {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     color: #0C4682;
     margin-top: 100px;
@@ -277,7 +277,7 @@ nav ul li a:hover:after
     width: 75%;
     height: 5px;
     background: #0C4682;
-    margin: 170px 0px 0px 20px;
+    margin: 140px 0px 0px 20px;
     position: absolute;
 }
 .boxes-container .box
@@ -286,27 +286,32 @@ nav ul li a:hover:after
     background: #FBFBFB;
     box-shadow: 0px 5px 4px 1px rgba(12, 70, 130, 0.25);
     border-radius: 50px;
-    padding: 32px;
-    width: 420px;
+    padding: 20px;
+    width: 320px;
     margin: 20px;
     z-index: 1;
+}
+.boxes-container .box svg
+{
+    height: 70px;
+    width: 70px;
 }
 .boxes-container .box .box-num
 {
     color: #0C4682;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 600;
 }
 .boxes-container .box .box-title
 {
     color: #0C4682;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 600;
 }
 .boxes-container .box p
 {
     color: #0C4682;
-    font-size: 22px;
+    font-size: 16px;
     margin-top: 20px;
     font-weight: 500;
 }
@@ -329,7 +334,7 @@ nav ul li a:hover:after
 }
 #section4-description-title
 {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 500;
     color: #0C4682;
     width: 100%;
@@ -354,20 +359,20 @@ nav ul li a:hover:after
 }
 .feature-box-container .feature-box-title
 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: #0C4682;
 }
 .feature-box-container .feature-box-description
 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #0C4682;
     margin-top: 20px;
 }
 #straight-mobile
 {
-    width: 370px;
+    width: 350px;
     margin: 50px;
 }
 #learn-more
@@ -388,7 +393,7 @@ nav ul li a:hover:after
 {
     text-align: center;
     color: #0C4682;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     margin-top: 90px;
 }
@@ -422,8 +427,8 @@ nav ul li a:hover:after
 .card
 {
 
-    width: 550px;
-    height: 620px;
+    width: 440px;
+    height: 465px;
     background: #FBFBFB;
     margin: 20px;
     border-radius: 50px;
@@ -432,7 +437,7 @@ nav ul li a:hover:after
 }
 .card-image
 {
-    height: 250px;
+    height: 200px;
     overflow: hidden;
 }
 .card-image img
@@ -444,21 +449,20 @@ nav ul li a:hover:after
 }
 .card-title
 {
-    font-size: 24px;
+    font-size: 20px;
     color: #0C4682;
     font-weight: 600;
     padding: 20px;
-    line-height: 40px;
-    height: 110px;
+    height: 70px;
     overflow: hidden;
 }
 .card-description
 {
     color: #0C4682;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 17px;
+    padding: 10px 20px 20px 20px;
     font-weight: 400;
-    height: 180px;
+    height: 130px;
     overflow: hidden;
 }
 .card-bottom
@@ -467,8 +471,13 @@ nav ul li a:hover:after
     align-items: center;
     color: #0C4682;
     padding: 15px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
+}
+.card-bottom svg
+{
+    height: 40px;
+    width: 40px;
 }
 .card-button-bottom-container
 {
@@ -483,7 +492,7 @@ nav ul li a:hover:after
     color: #FBFBFB;
     background: #0C4682;
     padding: 15px 25px;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     position: absolute;
     margin-top: -30px;
@@ -534,10 +543,11 @@ nav ul li a:hover:after
 {
     display: flex;
     width: 650px;
+
 }
 #section6-description-title
 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
     color: #0C4682;
     width: 100%;
@@ -559,10 +569,10 @@ nav ul li a:hover:after
     background: #F1F1F1;
     box-shadow: 0px 5px 5px 1px rgba(12, 70, 130, 0.25);
     border-radius: 40px;
-    padding: 25px 20px;
+    padding: 20px 15px;
     width: 98%;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #0C4682;
     margin: 15px;
@@ -573,7 +583,7 @@ nav ul li a:hover:after
 }
 #form-policy, #form-policy a
 {
-    font-size: 18px;
+    font-size: 16px;
     color: #0C4682;
     text-decoration: none;
     font-weight: 500;
@@ -581,8 +591,8 @@ nav ul li a:hover:after
 }
 #contact-form input[type='submit']
 {
-    font-size: 24px;
-    padding: 20px 100px;
+    font-size: 20px;
+    padding: 15px 100px;
     font-weight: 600;
     cursor: pointer;
     border: none;
@@ -590,7 +600,7 @@ nav ul li a:hover:after
 #footer-container
 {
     background: #F1F1F1;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     display: flex;
     justify-content: space-between;
@@ -606,7 +616,7 @@ nav ul li a:hover:after
     }
     nav ul li
     {
-        padding: 50px 12px;
+        padding: 35px 12px;
     }
     nav ul #nav-logo
     {
@@ -655,7 +665,7 @@ nav ul li a:hover:after
     }
     #section3-container .short-title
     {
-        font-size: 22px;
+        font-size: 20px;
     }
     .boxes-container
     {
@@ -716,7 +726,7 @@ nav ul li a:hover:after
     {
 
         width: 575px;
-        height: 570px;
+        height: 500px;
         margin: 30px;
     }
     .card-image
@@ -733,7 +743,7 @@ nav ul li a:hover:after
     .card-description
     {
         font-size: 17px;
-        height: 200px;
+        height: 150px;
     }
     .card-bottom
     {
@@ -1096,8 +1106,8 @@ nav ul li a:hover:after
     .line
     {
         transform: rotate(90deg);
-        width: 122%;
-        margin: 460px 0px 0px 0px;
+        width: 80%;
+        margin: 360px 0px 0px 0px;
     }
     .sm-tabs
     {
