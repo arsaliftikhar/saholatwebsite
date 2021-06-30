@@ -831,7 +831,7 @@ nav ul li a:hover:after
     {
         display: flex;
         justify-content: space-between;
-        padding: 30px;
+        padding: 25px 30px;
         align-items: center;
         position: fixed;
         width: 100%;
@@ -844,7 +844,7 @@ nav ul li a:hover:after
         position: fixed;
         width: 50%;
         height: 100vh;
-        top: 110px;
+        top: 100px;
         background: white;
         box-shadow: lightblue 0px 0px 5px;
         right: -50%;
@@ -985,6 +985,18 @@ nav ul li a:hover:after
         height: 45px;
         padding: 7px;
         font-size:28px;
+    }
+    .card
+    {
+        height: 460px;
+    }
+    .card .card-description
+    {
+        height:110px;
+    }
+    .card .card-bottom
+    {
+        font-size: 14px;
     }
     .card-d-none-md
     {
@@ -1250,7 +1262,7 @@ nav ul li a:hover:after
     }
     .card-image
     {
-        height: 200px;
+        height: 150px;
     }
     .card-title
     {
