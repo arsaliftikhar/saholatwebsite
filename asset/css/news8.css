@@ -175,22 +175,22 @@ nav ul li a:hover:after
 #news-article p
 {
     color: #0C4682;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 50px;
     font-weight: 400;
-    line-height: 45px;
+    line-height: 40px;
 }
 .article-heading
 {
     color: #0C4682;
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 .news-article-side-img
 {
-    height: 675px;
-    width: 477px;
+    height: 575px;
+    width: 377px;
     float: right;
     margin: 30% -100px 20px 20px;
     border-radius: 70px 0px 0px 70px;
@@ -221,8 +221,8 @@ nav ul li a:hover:after
 .card
 {
 
-    width: 550px;
-    height: 620px;
+    width: 440px;
+    height: 465px;
     background: #FBFBFB;
     margin: 20px;
     border-radius: 50px;
@@ -231,7 +231,7 @@ nav ul li a:hover:after
 }
 .card-image
 {
-    height: 250px;
+    height: 200px;
     overflow: hidden;
 }
 .card-image img
@@ -243,21 +243,20 @@ nav ul li a:hover:after
 }
 .card-title
 {
-    font-size: 24px;
+    font-size: 20px;
     color: #0C4682;
     font-weight: 600;
     padding: 20px;
-    line-height: 40px;
-    height: 110px;
+    height: 70px;
     overflow: hidden;
 }
 .card-description
 {
     color: #0C4682;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 17px;
+    padding: 10px 20px 20px 20px;
     font-weight: 400;
-    height: 180px;
+    height: 130px;
     overflow: hidden;
 }
 .card-bottom
@@ -266,8 +265,13 @@ nav ul li a:hover:after
     align-items: center;
     color: #0C4682;
     padding: 15px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
+}
+.card-bottom svg
+{
+    height: 40px;
+    width: 40px;
 }
 .card-button-bottom-container
 {
@@ -282,7 +286,7 @@ nav ul li a:hover:after
     color: #FBFBFB;
     background: #0C4682;
     padding: 15px 25px;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     position: absolute;
     margin-top: -30px;
@@ -361,22 +365,10 @@ nav ul li a:hover:after
     {
         padding: 80px;
     }
-    #news-article p
-    {
-        color: #0C4682;
-        font-size: 20px;
-        margin-bottom: 50px;
-        line-height: 45px;
-    }
-    .article-heading
-    {
-        font-size: 38px;
-        margin-bottom: 20px;
-    }
     .news-article-side-img
     {
-        height: 552px;
-        width: 417px;
+        height: 452px;
+        width: 317px;
         float: right;
         margin: 45% -120px 20px 20px;
         border-radius: 70px 0px 0px 70px;
@@ -391,7 +383,7 @@ nav ul li a:hover:after
     {
 
         width: 575px;
-        height: 570px;
+        height: 500px;
         margin: 30px;
     }
     .card-image
@@ -408,7 +400,7 @@ nav ul li a:hover:after
     .card-description
     {
         font-size: 17px;
-        height: 200px;
+        height: 150px;
     }
     .card-bottom
     {
@@ -600,12 +592,37 @@ nav ul li a:hover:after
     }
     .short-title
     {
-        font-size: 20px;
+        font-size: 18px;
     }
-    .card-button-bottom-container
+    .card
     {
-        width: 95%;
-        justify-content: center;
+        margin: 10px;
+        height: 330px;
+    }
+    .card-image
+    {
+        height: 110px;
+    }
+    .card-title
+    {
+        font-size: 14px;
+        line-height: 18px;
+        height: 60px;
+    }
+    .card-description
+    {
+        font-size: 11px;
+        height: 100px;
+    }
+    .card-bottom
+    {
+        font-size: 9px;
+        padding: 0px 10px 0px 10px;
+    }
+    .card-button-bottom
+    {
+        font-size: 10px;
+        margin-top: -10px;
     }
     #footer-container
     {

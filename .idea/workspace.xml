@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1aad8b12-0432-4ada-a88c-865c4dfa93d6" name="Default Changelist" comment="" />
+    <list default="true" id="1aad8b12-0432-4ada-a88c-865c4dfa93d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/asset/css/news8.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/news8.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +39,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="8155" />
+          <entry key="css" value="8166" />
           <entry key="html" value="3778" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="8155" />
+          <entry key="CSS" value="8166" />
           <entry key="HTML" value="3778" />
         </counts>
       </usages-collector>
@@ -72,17 +74,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/asset/css/style18.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24244">
-              <caret line="1270" column="26" selection-start-line="1270" selection-start-column="26" selection-end-line="1270" selection-end-column="26" />
+            <state relative-caret-position="517">
+              <caret line="762" column="5" lean-forward="true" selection-start-line="724" selection-start-column="4" selection-end-line="762" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/asset/css/news7.css">
+        <entry file="file://$PROJECT_DIR$/asset/css/news8.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="656" column="23" selection-start-line="656" selection-start-column="23" selection-end-line="656" selection-end-column="23" />
+            <state relative-caret-position="-2694">
+              <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -138,6 +140,7 @@
         <option value="$PROJECT_DIR$/asset/css/style18.css" />
         <option value="$PROJECT_DIR$/asset/css/news6.css" />
         <option value="$PROJECT_DIR$/asset/css/news7.css" />
+        <option value="$PROJECT_DIR$/asset/css/news8.css" />
       </list>
     </option>
   </component>
@@ -225,15 +228,15 @@
       <workItem from="1624820191415" duration="12976000" />
       <workItem from="1624959890953" duration="9544000" />
       <workItem from="1625043561842" duration="7290000" />
-      <workItem from="1625057913377" duration="511000" />
+      <workItem from="1625057913377" duration="1014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92166000" />
+    <option name="totallyTimeSpent" value="92669000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23288591" />
@@ -289,15 +292,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asset/css/style18.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24244">
-          <caret line="1270" column="26" selection-start-line="1270" selection-start-column="26" selection-end-line="1270" selection-end-column="26" />
+        <state relative-caret-position="517">
+          <caret line="762" column="5" lean-forward="true" selection-start-line="724" selection-start-column="4" selection-end-line="762" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asset/css/news7.css">
+    <entry file="file://$PROJECT_DIR$/asset/css/news8.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="656" column="23" selection-start-line="656" selection-start-column="23" selection-end-line="656" selection-end-column="23" />
+        <state relative-caret-position="-2694">
+          <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
         </state>
       </provider>
     </entry>
